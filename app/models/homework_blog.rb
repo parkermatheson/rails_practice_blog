@@ -1,0 +1,2 @@
+class HomeworkBlog < ApplicationRecord
+end

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @homework_blog.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @homework_blog.body %>
+</p>
+
+<p>
+  <strong>Published:</strong>
+  <%= @homework_blog.published %>
+</p>
+
+<%= link_to 'Edit', edit_homework_blog_path(@homework_blog) %> |
+<%= link_to 'Back', homework_blogs_path %>
